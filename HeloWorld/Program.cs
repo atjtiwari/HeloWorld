@@ -16,8 +16,14 @@ namespace HeloWorld
         {
             Program p = new Program();
             p.HeloWorld();
+            p.welcome("Anupam Tiwari");
             Console.ReadLine();
 
+        }
+
+        public void welcome(string name)
+        {
+            Console.WriteLine("Welcome {0}", name);
         }
     }
 }
