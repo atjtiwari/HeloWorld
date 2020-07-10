@@ -8,14 +8,14 @@ namespace HeloWorld
 {
     class Program
     {
-        public void HeloWorld()
+        public void HeloWorld(string name)
         {
-            Console.WriteLine("Helo World");
+            Console.WriteLine("Helo World {0}", name);
         }
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.HeloWorld();
+            p.HeloWorld("Anupam ");
             Console.ReadLine();
 
         }
