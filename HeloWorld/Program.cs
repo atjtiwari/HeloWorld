@@ -15,7 +15,7 @@ namespace HeloWorld
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.HeloWorld("Anupam ");
+            p.HeloWorld("Anupam Tiwari");
             Console.ReadLine();
 
         }
