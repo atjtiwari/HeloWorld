@@ -15,8 +15,9 @@ namespace HeloWorld
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.HeloWorld();
+            p.HeloWorld("Anupam");
             p.welcome("Anupam Tiwari");
+            p.demo();
             Console.ReadLine();
 
         }
@@ -24,6 +25,11 @@ namespace HeloWorld
         public void welcome(string name)
         {
             Console.WriteLine("Welcome {0}", name);
+        }
+
+        public void demo()
+        {
+            Console.WriteLine("This is the git changes demo");
         }
     }
 }
