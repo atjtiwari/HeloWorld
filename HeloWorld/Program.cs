@@ -29,7 +29,7 @@ namespace HeloWorld
 
         public void demo()
         {
-            Console.WriteLine("This is the git changes demo Azure CI Pipeline");
+            Console.WriteLine("This is the git changes demo");
         }
     }
 }
